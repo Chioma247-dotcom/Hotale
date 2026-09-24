@@ -1,0 +1,491 @@
+import Link from "next/link";
+
+export default function RoomSearch() {
+    return (
+        <div className="room-search-page">
+            {/* ------HERO----- */}
+            <div className="flex  justify-center relative">
+                <img src="IMG20.jpg" alt="" className="w-full h-full absolute z-0" />
+                <div className="w-full max-w-300 px-4 sm:px-6">
+                    <div className="flex justify-center items-center py-24 sm:py-32 md:py-40 relative">
+                        <div className="text-4xl sm:text-5xl md:text-6xl text-white font-bold max-w-250 leading-tight md:leading-20 text-center">Room Search</div>
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            {/* ----RESERVATION----- */}
+            <div className="flex justify-center bg-white">
+                <div className="w-full max-w-300 px-4 sm:px-6">
+                    <div className="flex flex-col lg:flex-row gap-10 mt-12 md:mt-20 items-stretch lg:items-start justify-center mb-16">
+                        <div className="flex flex-col items-start justify-center">
+                            <div className="text-black font-extrabold text-2xl mb-5">Check Availability</div>
+                            <div className="w-full sm:w-72 bg-gray-100 mb-5 shadow-sm rounded-md px-4 py-5">
+                                <div className="flex flex-col">
+                                    <span className=" text-lg text-gray-500 mb-4">
+                                        Check In
+                                    </span>
+
+                                    <div className="flex items-center justify-between">
+                                        <span className="text-black font-medium text-sm">
+                                            AUG  5, 2026
+                                        </span>
+
+                                        <i className="bi bi-caret-down-fill text-black text-sm"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="w-full sm:w-72 bg-gray-100 mb-5 shadow-sm rounded-md px-4 py-5">
+                                <div className="flex flex-col">
+                                    <span className=" text-lg text-gray-500 mb-4">
+                                        Check Out
+                                    </span>
+
+                                    <div className="flex items-center justify-between">
+                                        <span className="text-black font-medium text-sm">
+                                            AUG  6, 2026
+                                        </span>
+
+                                        <i className="bi bi-caret-down-fill text-black text-sm"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="w-full sm:w-72 bg-gray-100 mb-5 shadow-sm rounded-md px-4 py-5">
+                                <div className="flex flex-col">
+                                    <span className=" text-lg text-gray-500 mb-4">
+                                        Room
+                                    </span>
+
+                                    <div className="flex items-center justify-between">
+                                        <span className="text-black font-medium text-sm">
+                                            1
+                                        </span>
+
+                                        <i className="bi bi-caret-down-fill text-black text-sm"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="w-full sm:w-72 bg-gray-100 mb-5 shadow-sm rounded-md px-4 py-5">
+                                <div className="flex flex-col">
+                                    <span className=" text-lg text-gray-500 mb-4">
+                                        Guests
+                                    </span>
+
+                                    <div className="flex items-center gap-1   justify-between">
+                                        <div className="text-black font-medium text-sm">
+                                            ADULTS 2
+                                        </div>
+                                        <div className="text-black font-medium text-sm">
+                                            CHILDREN 0
+                                        </div>
+
+                                        <i className="bi bi-caret-down-fill text-black text-sm"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="flex flex-col gap-10 -mt-8 w-full lg:w-auto">
+                            <img src="IMG15.jpg" alt="" className="h-auto w-full max-w-110 object-cover lg:h-90" />
+                            <img src="IMG4.jpg" alt="" className="h-auto w-full max-w-110 object-cover lg:h-90" />
+                            <img src="IMG3.jpg" alt="" className="h-auto w-full max-w-110 object-cover lg:h-90" />
+                            <img src="IMG6.jpg" alt="" className="h-auto w-full max-w-110 object-cover lg:h-90" />
+                            <img src="IMG13.jpg" alt="" className="h-auto w-full max-w-110 object-cover lg:h-90" />
+                            <img src="IMG18.jpg" alt="" className="h-auto w-full max-w-140 object-cover lg:h-87" />
+                            <img src="IMG5.jpg" alt="" className="h-auto w-full max-w-110 object-cover lg:h-90" />
+                            <img src="IMG2.jpg" alt="" className="h-auto w-full max-w-98 object-cover lg:h-95" />
+                            <img src="IMG1.jpg" alt="" className="h-auto w-full max-w-110 object-cover lg:h-90" />
+
+                        </div>
+                        <div className="flex w-full flex-col gap-20 lg:w-auto lg:max-w-140">
+
+                            <div className="flex flex-col   ">
+                                <div className="text-black text-2xl font-bold mb-4"> Luxury Suite</div>
+                                <div className="flex flex-wrap mb-7 gap-4 items-start">
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-truck-front"></i></div>
+                                        <div className="text-xl text-gray-600">1 King Bed</div>
+                                    </div>
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-people"></i></div>
+                                        <div className="text-xl text-gray-600">4 Guests</div>
+                                    </div>
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-aspect-ratio"></i></div>
+                                        <div className="text-xl text-gray-600">30 Sqm</div>
+                                    </div>
+                                </div>
+                                <div className="text-gray-600 text-lg font-medium mb-7">Hotale Suites has been honored with the prestigious Five-Star Award by Forbes.</div>
+                                <div className="flex mb-10 gap-8">
+                                    <div className="flex gap-2 text-yellow-400 text-sm">
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <div className="text-gray-500 text-sm bottom-2">1 Review</div>
+                                    </div>
+
+                                </div>
+                                <div className="flex flex-wrap justify-between gap-4">
+                                    <div className=" flex gap-3">
+                                        <Link href="/room-search" className="text-black font-bold text-sm">BOOK NOW</Link>
+                                        <div className=" text-black font-bold text-sm"><i className="bi bi-caret-right"></i></div>
+                                    </div>
+                                    <div className="text-black text-2xl font-light">From $ 90 <span className="text-gray-600 text-lg font-medium">/ night</span></div>
+                                </div>
+
+                            </div>
+                            <div className="flex flex-col mt-6 ">
+                                <div className="text-black text-2xl font-bold mb-4"> Standard Deluxe</div>
+                                <div className="flex mb-7 gap-7 items-start">
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-truck-front"></i></div>
+                                        <div className="text-xl text-gray-600">2 Single Beds</div>
+                                    </div>
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-people"></i></div>
+                                        <div className="text-xl text-gray-600">6 Guests</div>
+                                    </div>
+
+                                </div>
+                                <div className="text-gray-600 text-lg font-medium mb-7">Hotale Suites has been honored with the prestigious Five-Star Award by Forbes.</div>
+                                <div className="flex mb-10 gap-8">
+                                    <div className="flex gap-2 text-yellow-400 text-sm">
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star"></i>
+                                        <div className="text-gray-500 text-sm bottom-2">1 Review</div>
+                                    </div>
+
+                                </div>
+                                <div className="flex justify-between">
+                                    <div className=" flex gap-3">
+                                        <Link href="/room-search" className="text-black font-bold text-sm">BOOK NOW</Link>
+                                        <div className=" text-black font-bold text-sm"><i className="bi bi-caret-right"></i></div>
+                                    </div>
+                                    <div className="text-black text-2xl font-light">From $ 75 <span className="text-gray-600 text-lg font-medium">/ night</span></div>
+                                </div>
+                            </div>
+
+
+                            <div className="flex flex-col mt-6 ">
+                                <div className="text-black text-2xl font-bold mb-4 "> The Penthouse</div>
+                                <div className="flex mb-7 gap-7 items-start">
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-truck-front"></i></div>
+                                        <div className="text-xl text-gray-600">1 King Bed</div>
+                                    </div>
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-people"></i></div>
+                                        <div className="text-xl text-gray-600">6 Guests</div>
+                                    </div>
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-aspect-ratio"></i></div>
+                                        <div className="text-xl text-gray-600">28 Sqm</div>
+                                    </div>
+                                </div>
+                                <div className="text-gray-600 text-lg font-medium mb-7">Hotale Suites has been honored with the prestigious Five-Star Award by Forbes.</div>
+                                <div className="flex mb-10 gap-8">
+                                    <div className="flex gap-2 text-yellow-400 text-sm">
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <div className="text-gray-500 text-sm bottom-2">1 Review</div>
+                                    </div>
+
+                                </div>
+                                <div className="flex justify-between">
+                                    <div className=" flex gap-3">
+                                        <Link href="/room-search" className="text-black font-bold text-sm">BOOK NOW</Link>
+                                        <div className=" text-black font-bold text-sm"><i className="bi bi-caret-right"></i></div>
+                                    </div>
+                                    <div className="text-black text-2xl font-light">From $ 200 <span className="text-gray-600 text-lg font-medium">/ night</span></div>
+                                </div>
+                            </div>
+
+                            <div className="flex flex-col mt-15 ">
+                                <div className="text-black text-2xl font-bold mb-4"> Grand Suite Room</div>
+                                <div className="flex mb-7 gap-7 items-start">
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-truck-front"></i></div>
+                                        <div className="text-xl text-gray-600">1 King Bed</div>
+                                    </div>
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-people"></i></div>
+                                        <div className="text-xl text-gray-600">4 Guests</div>
+                                    </div>
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-aspect-ratio"></i></div>
+                                        <div className="text-xl text-gray-600">34 Sqm</div>
+                                    </div>
+                                </div>
+                                <div className="text-gray-600 text-lg font-medium mb-7">Hotale Suites has been honored with the prestigious Five-Star Award by Forbes.</div>
+                                <div className="flex justify-between">
+                                    <div className=" flex gap-3">
+                                        <Link href="/room-search" className="text-black font-bold text-sm">BOOK NOW</Link>
+                                        <div className=" text-black font-bold text-sm"><i className="bi bi-caret-right"></i></div>
+                                    </div>
+                                    <div className="text-black text-2xl font-light">From $ 80 <span className="text-gray-600 text-lg font-medium">/ night</span></div>
+                                </div>
+                            </div>
+
+                            <div className="flex flex-col mt-35 ">
+                                <div className="text-black text-2xl font-bold mb-4"> Junior Suite Room</div>
+                                <div className="flex mb-7 gap-7 items-start">
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-truck-front"></i></div>
+                                        <div className="text-xl text-gray-600">1 Double Bed</div>
+                                    </div>
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-people"></i></div>
+                                        <div className="text-xl text-gray-600">3 Guests</div>
+                                    </div>
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-aspect-ratio"></i></div>
+                                        <div className="text-xl text-gray-600"> 29 Sqm</div>
+                                    </div>
+                                </div>
+                                <div className="text-gray-600 text-lg font-medium mb-7">Hotale Suites has been honored with the prestigious Five-Star Award by Forbes.</div>
+                                <div className="flex mb-10 gap-8">
+                                    <div className="flex gap-2 text-yellow-400 text-sm">
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <div className="text-gray-500 text-sm bottom-2">1 Review</div>
+                                    </div>
+
+                                </div>
+                                <div className="flex justify-between">
+                                    <div className=" flex gap-3">
+                                        <Link href="/room-search" className="text-black font-bold text-sm">BOOK NOW</Link>
+                                        <div className=" text-black font-bold text-sm"><i className="bi bi-caret-right"></i></div>
+                                    </div>
+                                    <div className="text-black text-2xl font-light">From $ 69<span className="text-gray-600 text-lg font-medium">/ night</span></div>
+                                </div>
+                            </div>
+
+                            <div className="flex flex-col mt-6">
+                                <div className="text-black text-2xl font-bold mb-4">Standard Room</div>
+                                <div className="flex mb-7 gap-7 items-start">
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-truck-front"></i></div>
+                                        <div className="text-xl text-gray-600">1 Double Bed</div>
+                                    </div>
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-people"></i></div>
+                                        <div className="text-xl text-gray-600">4 Guests </div>
+                                    </div>
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-aspect-ratio"></i></div>
+                                        <div className="text-xl text-gray-600">40 Sqm</div>
+                                    </div>
+                                </div>
+                                <div className="text-gray-600 text-lg font-medium mb-7">Hotale Suites has been honored with the prestigious Five-Star Award by Forbes.</div>
+                                <div className="flex justify-between">
+                                    <div className=" flex gap-3">
+                                        <Link href="/room-search" className="text-black font-bold text-sm">BOOK NOW</Link>
+                                        <div className=" text-black font-bold text-sm"><i className="bi bi-caret-right"></i></div>
+                                    </div>
+                                    <div className="text-black text-2xl font-light">From $ 80 <span className="text-gray-600 text-lg font-medium">/ night</span></div>
+                                </div>
+                            </div>
+
+                            <div className="flex flex-col mt-16 ">
+                                <div className="text-black text-2xl font-bold mb-4">Family Special Room</div>
+                                <div className="flex mb-7 gap-4 items-start">
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-truck-front"></i></div>
+                                        <div className="text-xl text-gray-600">2 Double Beds</div>
+                                    </div>
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-people"></i></div>
+                                        <div className="text-xl text-gray-600"> 6 Guests</div>
+                                    </div>
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-aspect-ratio"></i></div>
+                                        <div className="text-xl text-gray-600">33 Sqm</div>
+                                    </div>
+                                </div>
+                                <div className="text-gray-600 text-lg font-medium mb-7">Hotale Suites has been honored with the prestigious Five-Star Award by Forbes.</div>
+                                <div className="flex mb-10 gap-8">
+                                    <div className="flex gap-2 text-yellow-400 text-sm">
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <div className="text-gray-500 text-sm bottom-2">1 Review</div>
+                                    </div>
+
+                                </div>
+                                <div className="flex justify-between">
+                                    <div className=" flex gap-3">
+                                        <Link href="/room-search" className="text-black font-bold text-sm">BOOK NOW</Link>
+                                        <div className=" text-black font-bold text-sm"><i className="bi bi-caret-right"></i></div>
+                                    </div>
+                                    <div className="text-black text-2xl font-light">From $ 180 <span className="text-gray-600 text-lg font-medium">/ night</span></div>
+                                </div>
+                            </div>
+
+                            <div className="flex flex-col mt-14">
+                                <div className="text-black text-2xl font-bold mb-4"> Premium Room</div>
+                                <div className="flex mb-7 gap-7 items-start">
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-truck-front"></i></div>
+                                        <div className="text-xl text-gray-600">2 Single Beds</div>
+                                    </div>
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-people"></i></div>
+                                        <div className="text-xl text-gray-600">4 Guests</div>
+                                    </div>
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-aspect-ratio"></i></div>
+                                        <div className="text-xl text-gray-600">28 Sqm</div>
+                                    </div>
+                                </div>
+                                <div className="text-gray-600 text-lg font-medium mb-7">Hotale Suites has been honored with the prestigious Five-Star Award by Forbes.</div>
+                                <div className="flex mb-10 gap-8">
+                                    <div className="flex gap-2 text-yellow-400 text-sm">
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <div className="text-gray-500 text-sm bottom-2">1 Review</div>
+                                    </div>
+
+                                </div>
+                                <div className="flex justify-between">
+                                    <div className=" flex gap-3">
+                                        <Link href="/room-search" className="text-black font-bold text-sm">BOOK NOW</Link>
+                                        <div className=" text-black font-bold text-sm"><i className="bi bi-caret-right"></i></div>
+                                    </div>
+                                    <div className="text-black text-2xl font-light">From $ 75 <span className="text-gray-600 text-lg font-medium">/ night</span></div>
+                                </div>
+                            </div>
+
+
+                            <div className="flex flex-col mt-15 ">
+                                <div className="text-black text-2xl font-bold mb-4"> Deluxe Suite Room</div>
+                                <div className="flex mb-7 gap-7 items-start">
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-truck-front"></i></div>
+                                        <div className="text-xl text-gray-600">1 King Bed</div>
+                                    </div>
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-people"></i></div>
+                                        <div className="text-xl text-gray-600">4 Guests</div>
+                                    </div>
+                                    <div className="flex gap-2">
+                                        <div className="text-black text-2xl"> <i className="bi bi-aspect-ratio"></i></div>
+                                        <div className="text-xl text-gray-600">36 Sqm</div>
+                                    </div>
+                                </div>
+                                <div className="text-gray-600 text-lg font-medium mb-7">Hotale Suites has been honored with the prestigious Five-Star Award by Forbes.</div>
+                                <div className="flex mb-10 gap-8">
+                                    <div className="flex gap-2 text-yellow-400 text-sm">
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <i className="bi bi-star-fill"></i>
+                                        <div className="text-gray-500 text-sm bottom-2">1 Review</div>
+                                    </div>
+
+                                </div>
+                                <div className="flex justify-between">
+                                    <div className=" flex gap-3">
+                                        <Link href="/room-search" className="text-black font-bold text-sm">BOOK NOW</Link>
+                                        <div className=" text-black font-bold text-sm"><i className="bi bi-caret-right"></i></div>
+                                    </div>
+                                    <div className="text-black text-2xl font-light">From $ 90 <span className="text-gray-600 text-lg font-medium">/ night</span></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            {/* ------FOOTER--- */}
+            <div className="legacy-footer flex justify-center relative">
+                <img src="white-bg-4.jpg" alt="" className="absolute h-full w-full z-0" />
+                <div className="w-full max-w-300">
+                    <div className="grid grid-cols-3 gap-7 mb-14 py-20 items-start relative">
+                        <div className="flex flex-col justify-center items-start z-0">
+                            <div className="w-30 mb-8"><img src="Logo-hotel2.png" alt="" /></div>
+                            <div className="flex gap-4 mb-10 ">
+                                <div className="rounded-full px-3 py-2  text-sm bg-black ">
+                                    <i className="bi bi-facebook"></i>
+                                </div>
+                                <div className="rounded-full px-3 py-2  text-sm bg-black ">
+                                    <i className="bi bi-linkedin"></i>
+                                </div>
+                                <div className="rounded-full px-3 py-2  text-sm bg-black ">
+                                    <i className="bi bi-twitter-x"></i>
+                                </div>
+                            </div>
+                            <div className="text-lg text-gray-500 max-w-89">Our hotels offer glamour and comfort that expands the imagination and cradles the spirit.</div>
+                        </div>
+
+                        <div className=" flex flex-col justify-center items-start z-0">
+                            <div className="text-black text-xl mb-5 font-bold">QUICK LINKS</div>
+
+                            <div className="gap-20 mb-4 flex z-0">
+                                <div className="text-gray-400 text- lg gap-10">Privacy Policy</div>
+                                <div className="text-gray-400 text- lg gap-10">FAQ</div>
+                            </div>
+                            <div className="gap-36 mb-4 flex">
+                                <div className="text-gray-400 text- lg gap-10">Blog</div>
+                                <div className="text-gray-400 text- lg gap-10">Contact Us</div>
+                            </div>
+                            <div className="gap-23 mb-4 flex">
+                                <div className="text-gray-400 text- lg gap-10">Reservation</div>
+                                <div className="text-gray-400 text- lg gap-10">Room List</div>
+                            </div>
+                            <div className="gap-34 mb-4 flex">
+                                <div className="text-gray-400 text- lg gap-10">Offers</div>
+                                <div className="text-gray-400 text- lg gap-10">About Us</div>
+                            </div>
+
+                        </div>
+
+                        <div className="flex  flex-col justify-center items-start">
+                            <div className="text-black text-xl mb-5 font-bold">NEWSLETTER</div>
+
+                            <div className="relative mb-5 w-100">
+                                <input
+                                    type="text"
+                                    placeholder="Enter Your Email Address"
+                                    className="w-full py-3 pl-4 pr-10 border border-gray-300 font-bold bg-gray-200 text-gray-800 rounded-sm outline-none mb-5"
+                                />
+                                <i className="bi bi-send-fill absolute right-3 top-1/3 -translate-y-1/2 text-amber-800"></i>
+                            </div>
+                            <div className="w-full mb-8"><img src="Logo6.jpg" alt="" /></div>
+                        </div>
+
+                    </div>
+                    <div className=" relative">
+                        <div className="text-sm text-gray-500  text-center ">Copyright © 2026 Hotale Theme - GoodLayers. <span className="text-amber-700"> Terms & Conditions.</span></div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    );
+}

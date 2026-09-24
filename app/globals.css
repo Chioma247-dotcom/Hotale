@@ -24,3 +24,24 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+@media (max-width: 767px) {
+  .room-search-page .flex.mb-7 {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .room-search-page .justify-between {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+
+.legacy-footer {
+  display: none;
+}
