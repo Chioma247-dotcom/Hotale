@@ -95,7 +95,7 @@ export default function Home() {
                 className="w-full h-40 border border-gray-100  bg-gray-200 outline-none p-4 mb-5 resize-none"
               ></textarea>
 
-              <button className="bg-amber-800 text-white px-6 py-3 outline-none rounded-sm">
+              <button type="submit" className="inline-flex min-h-11 w-full items-center justify-center rounded-sm bg-amber-800 px-6 py-3 text-white outline-none transition hover:bg-black focus:ring-2 focus:ring-amber-700 focus:ring-offset-2 sm:w-auto">
                 SUBMIT NOW
               </button>
             </div>

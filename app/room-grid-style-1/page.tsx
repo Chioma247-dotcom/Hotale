@@ -42,7 +42,7 @@ export default function RoomGridStyle1() {
                                 <div className="text-gray-600 text-lg font-medium mb-7">Hotale Suites has been honored with the prestigious Five-Star Award by Forbes.</div>
                                 <div className="flex flex-wrap justify-between gap-4">
                                     <div className=" flex gap-3">
-                                        <Link href="/room-search" className="text-black font-bold text-sm">BOOK NOW</Link>
+                                        <Link href="/room-search" className="inline-flex min-h-11 items-center rounded-sm px-2 text-sm font-bold text-black transition hover:text-amber-700 focus:outline-none focus:ring-2 focus:ring-amber-700 focus:ring-offset-2">BOOK NOW</Link>
                                         <div className=" text-black font-bold text-sm"><i className="bi bi-caret-right"></i></div>
                                     </div>
                                     <div className="text-black text-2xl font-light">From $ 90 <span className="text-gray-600 text-lg font-medium">/ night</span></div>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import BookingForm from "../../components/BookingForm";
 
 export default function RoomSearch() {
     return (
@@ -22,72 +23,9 @@ export default function RoomSearch() {
             <div className="flex justify-center bg-white">
                 <div className="w-full max-w-300 px-4 sm:px-6">
                     <div className="flex flex-col lg:flex-row gap-10 mt-12 md:mt-20 items-stretch lg:items-start justify-center mb-16">
-                        <div className="flex flex-col items-start justify-center">
-                            <div className="text-black font-extrabold text-2xl mb-5">Check Availability</div>
-                            <div className="w-full sm:w-72 bg-gray-100 mb-5 shadow-sm rounded-md px-4 py-5">
-                                <div className="flex flex-col">
-                                    <span className=" text-lg text-gray-500 mb-4">
-                                        Check In
-                                    </span>
-
-                                    <div className="flex items-center justify-between">
-                                        <span className="text-black font-medium text-sm">
-                                            AUG  5, 2026
-                                        </span>
-
-                                        <i className="bi bi-caret-down-fill text-black text-sm"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="w-full sm:w-72 bg-gray-100 mb-5 shadow-sm rounded-md px-4 py-5">
-                                <div className="flex flex-col">
-                                    <span className=" text-lg text-gray-500 mb-4">
-                                        Check Out
-                                    </span>
-
-                                    <div className="flex items-center justify-between">
-                                        <span className="text-black font-medium text-sm">
-                                            AUG  6, 2026
-                                        </span>
-
-                                        <i className="bi bi-caret-down-fill text-black text-sm"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="w-full sm:w-72 bg-gray-100 mb-5 shadow-sm rounded-md px-4 py-5">
-                                <div className="flex flex-col">
-                                    <span className=" text-lg text-gray-500 mb-4">
-                                        Room
-                                    </span>
-
-                                    <div className="flex items-center justify-between">
-                                        <span className="text-black font-medium text-sm">
-                                            1
-                                        </span>
-
-                                        <i className="bi bi-caret-down-fill text-black text-sm"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="w-full sm:w-72 bg-gray-100 mb-5 shadow-sm rounded-md px-4 py-5">
-                                <div className="flex flex-col">
-                                    <span className=" text-lg text-gray-500 mb-4">
-                                        Guests
-                                    </span>
-
-                                    <div className="flex items-center gap-1   justify-between">
-                                        <div className="text-black font-medium text-sm">
-                                            ADULTS 2
-                                        </div>
-                                        <div className="text-black font-medium text-sm">
-                                            CHILDREN 0
-                                        </div>
-
-                                        <i className="bi bi-caret-down-fill text-black text-sm"></i>
-                                    </div>
-                                </div>
-                            </div>
-
+                        <div className="flex w-full flex-col items-start justify-center lg:w-72">
+                            <div className="mb-5 text-2xl font-extrabold text-black">Check Availability</div>
+                            <BookingForm variant="sidebar" />
                         </div>
                         <div className="flex flex-col gap-10 -mt-8 w-full lg:w-auto">
                             <img src="IMG15.jpg" alt="" className="h-auto w-full max-w-110 object-cover lg:h-90" />
@@ -133,7 +71,7 @@ export default function RoomSearch() {
                                 </div>
                                 <div className="flex flex-wrap justify-between gap-4">
                                     <div className=" flex gap-3">
-                                        <Link href="/room-search" className="text-black font-bold text-sm">BOOK NOW</Link>
+                                        <Link href="/room-search" className="inline-flex min-h-11 items-center rounded-sm px-2 text-sm font-bold text-black transition hover:text-amber-700 focus:outline-none focus:ring-2 focus:ring-amber-700 focus:ring-offset-2">BOOK NOW</Link>
                                         <div className=" text-black font-bold text-sm"><i className="bi bi-caret-right"></i></div>
                                     </div>
                                     <div className="text-black text-2xl font-light">From $ 90 <span className="text-gray-600 text-lg font-medium">/ night</span></div>

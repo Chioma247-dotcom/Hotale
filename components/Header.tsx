@@ -70,7 +70,7 @@ export default function Header() {
                   </Link>
                 ))}
               </nav>
-              <Link href="/room-search" onClick={() => setMenuOpen(false)} className="w-fit border-2 border-black px-5 py-2 text-sm text-gray-500">
+              <Link href="/room-search" onClick={() => setMenuOpen(false)} className="inline-flex min-h-11 w-full items-center justify-center border-2 border-black px-5 py-2 text-sm text-gray-500 transition hover:bg-black hover:text-white focus:outline-none focus:ring-2 focus:ring-amber-700 focus:ring-offset-2 sm:w-fit">
                 BOOK NOW
               </Link>
             </div>

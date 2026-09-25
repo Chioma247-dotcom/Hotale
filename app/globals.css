@@ -30,6 +30,28 @@ img {
   max-width: 100%;
 }
 
+a[href="/room-search"] {
+  min-height: 2.75rem;
+  align-items: center;
+}
+
+a[href="/room-search"]:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #b45309;
+  outline-offset: 2px;
+}
+
+input,
+select,
+textarea,
+button {
+  max-width: 100%;
+  font-size: 1rem;
+}
+
 @media (max-width: 767px) {
   .room-search-page .flex.mb-7 {
     flex-wrap: wrap;

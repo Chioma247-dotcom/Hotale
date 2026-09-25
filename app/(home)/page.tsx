@@ -1,4 +1,5 @@
 import Link from "next/link";
+import BookingForm from "../../components/BookingForm";
 
 export default function Home() {
   return (
@@ -21,49 +22,7 @@ export default function Home() {
               <div className="text-white text-lg max-w-130 text-center mb-30">Hotale has a series of lavish and comfortable hotels and residencesin Asia, Europe, and America. <span className="text-amber-700"> Check Availability.</span></div>
             </div>
 
-            <div className="flex w-full flex-wrap justify-center items-start gap-4 z-0">
-
-              <div className="flex flex-col justify-center items-start">
-                <div className="text-white font-bold text-sm mb-1">Check In</div>
-                <div className="bg-white flex w-full justify-between py-3 px-4 sm:w-auto sm:px-7 text-sm rounded-sm gap-4 sm:gap-11 text-gray-500">
-                  <div className=""> Jun 22, 2026</div>
-                  <div className=""><i className="bi bi-caret-down-fill"></i></div>
-                </div>
-
-              </div>
-              <div className="flex flex-col justify-center items-start">
-                <div className="text-white font-bold text-sm mb-1">Check Out</div>
-                <div className="bg-white flex w-full justify-between py-3 px-4 sm:w-auto sm:px-7 text-sm rounded-sm gap-4 sm:gap-11 text-gray-500">
-                  <div className=""> Jun 23, 2026</div>
-                  <div className=""><i className="bi bi-caret-down-fill"></i></div>
-                </div>
-
-              </div>
-              <div className="flex flex-col justify-center items-start">
-                <div className="text-white font-bold text-sm mb-1">Room</div>
-                <div className="bg-white flex w-full justify-between py-3 px-5 sm:w-auto text-sm rounded-sm gap-8 text-gray-500">
-                  <div className="">1</div>
-                  <div className=""><i className="bi bi-caret-down-fill"></i></div>
-                </div>
-
-              </div>
-              <div className="flex flex-col justify-center items-start">
-                <div className="text-white font-bold text-sm mb-1">Guests</div>
-                <div className="bg-white flex w-full justify-between py-3 px-4 sm:w-auto sm:px-7 text-sm rounded-sm gap-4 sm:gap-11 text-gray-500">
-                  <div className=""> Adults 2</div>
-                  <div className="">Children 0</div>
-                  <div className=""><i className="bi bi-caret-down-fill"></i></div>
-                </div>
-
-              </div>
-              <div className=" flex flex-col ">
-                <div className="text-sm mb-1 invisible">Label</div>
-                <Link href="/room-search" className="text-white items-start bg-amber-700 py-3 px-7 text-sm rounded-sm">Search Room</Link>
-
-              </div>
-
-
-            </div>
+            <BookingForm variant="hero" />
 
 
 
@@ -279,46 +238,11 @@ export default function Home() {
                   sales@hotale.co</div>
               </div>
             </div>
-            <div className="flex flex-col bg-white h-auto min-h-160 rounded-lg items-center z-0 justify-center p-6 sm:p-10">
-              <div className="text-center text-2xl sm:text-3xl text-black font-bold mb-10">Book a reservation</div>
+            <div className="flex h-auto min-h-160 flex-col items-center justify-center rounded-lg bg-white p-6 sm:p-10">
+              <div className="mb-10 text-center text-2xl font-bold text-black sm:text-3xl">Book a reservation</div>
               <div className="w-full max-w-120">
-                <input
-                  type="text"
-                  placeholder="Check In"
-                  className="w-full py-5 pl-4 pr-10 border text-gray-800 bg-gray-200 font-bold border-gray-300 rounded-sm outline-none mb-5"
-                />
+                <BookingForm variant="card" />
               </div>
-              <div className="w-full max-w-120">
-                <input
-                  type="text"
-                  placeholder="Check In"
-                  className="w-full py-5 pl-4 pr-10 border border-gray-300 font-bold text-gray-800 bg-gray-200 rounded-sm outline-none mb-5"
-                />
-
-
-              </div>
-              <div className="relative w-full max-w-120">
-                <input
-                  type="text"
-                  placeholder="Room 1"
-                  className="w-full py-5 pl-4 pr-10 border border-gray-300 font-bold bg-gray-200 text-gray-800 rounded-sm outline-none mb-5"
-                />
-                <i className="bi bi-caret-down-fill absolute right-3 top-1/2 -translate-y-1/2 text-gray-900"></i>
-              </div>
-              <div className="relative w-full max-w-120">
-                <input
-                  type="text"
-                  placeholder="Adults 2   Children 2 "
-                  className="w-full py-5 pl-4 pr-10 border border-gray-300 rounded-sm font-bold bg-gray-200 text-gray-800 outline-none mb-5"
-                />
-
-                <i className="bi bi-caret-down-fill absolute right-3 top-1/2 -translate-y-1/2 text-gray-900"></i>
-              </div>
-              <Link href="/room-search" className="w-full text-center text-white items-start bg-amber-700 py-5 px-8 sm:w-auto sm:px-45 text-lg rounded-sm">Search Room</Link>
-
-
-
-
             </div>
           </div>
         </div>
