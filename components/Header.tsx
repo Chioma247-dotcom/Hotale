@@ -43,7 +43,7 @@ export default function Header() {
 
       <div className="flex justify-center border-b-2 border-gray-200">
         <div className="w-full max-w-full px-4 sm:px-6">
-          <div className="flex flex-wrap items-center justify-between gap-4 py-4 sm:px-6 sm:py-5">
+          <div className="flex flex-wrap items-center justify-between gap-4 py-4 sm:px-6 sm:py-5 lg:flex-row lg:flex-nowrap lg:gap-8">
             <Link href="/" className="shrink-0" onClick={() => setMenuOpen(false)}>
               <img src="/logo-hotel2.png" alt="Hotale" className="h-auto w-24 sm:w-30" />
             </Link>
@@ -61,11 +61,11 @@ export default function Header() {
 
             <div
               id="site-navigation"
-              className={`${menuOpen ? "flex" : "hidden"} w-full flex-col gap-5 border-t border-gray-200 pt-4 sm:flex sm:w-auto sm:flex-row sm:items-center sm:gap-8 sm:border-0 sm:pt-0`}
+              className={`${menuOpen ? "flex" : "hidden"} w-full flex-col gap-5 border-t border-gray-200 pt-4 sm:flex sm:w-auto sm:flex-row sm:items-center sm:gap-8 sm:border-0 sm:pt-0 lg:flex-row lg:flex-nowrap lg:items-center lg:gap-8 lg:whitespace-nowrap lg:border-0 lg:pt-0`}
             >
-              <nav aria-label="Main navigation" className="flex flex-col gap-1 text-sm font-bold text-gray-500 sm:flex-row sm:gap-8">
+              <nav aria-label="Main navigation" className="flex flex-col gap-1 text-sm font-bold text-gray-500 sm:flex-row sm:gap-8 lg:flex-row lg:flex-nowrap lg:items-center lg:gap-6 lg:whitespace-nowrap">
                 {navigation.map(([label, href]) => (
-                  <Link key={href} href={href} onClick={() => setMenuOpen(false)} className="py-2 hover:text-amber-700 sm:py-0">
+                  <Link key={href} href={href} onClick={() => setMenuOpen(false)} className="py-2 hover:text-amber-700 sm:py-0 lg:inline-flex lg:min-h-11 lg:items-center lg:whitespace-nowrap">
                     {label}
                   </Link>
                 ))}
