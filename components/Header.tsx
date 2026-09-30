@@ -50,7 +50,7 @@ export default function Header() {
 
             <button
               type="button"
-              className="flex h-10 w-10 items-center justify-center border border-gray-300 text-xl text-gray-700 sm:hidden"
+              className="flex h-11 w-11 items-center justify-center border border-gray-300 text-xl text-gray-700 sm:hidden"
               aria-label={menuOpen ? "Close navigation" : "Open navigation"}
               aria-expanded={menuOpen}
               aria-controls="site-navigation"

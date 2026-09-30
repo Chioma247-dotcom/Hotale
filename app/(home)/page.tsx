@@ -19,7 +19,7 @@ export default function Home() {
             <div className="flex flex-col items-center z-0">
               <div className="text-4xl sm:text-5xl md:text-6xl text-white font-bold max-w-250 leading-tight md:leading-20 text-center mb-8">Hotel for the elite passionate  about luxury & comfort</div>
 
-              <div className="text-white text-lg max-w-130 text-center mb-30">Hotale has a series of lavish and comfortable hotels and residencesin Asia, Europe, and America. <span className="text-amber-700"> Check Availability.</span></div>
+              <div className="mb-12 max-w-130 text-center text-lg text-white sm:mb-30">Hotale has a series of lavish and comfortable hotels and residencesin Asia, Europe, and America. <Link href="/room-search" className="text-amber-700 underline-offset-4 hover:underline focus-visible:underline"> Check Availability.</Link></div>
             </div>
 
             <BookingForm variant="hero" />
@@ -44,7 +44,7 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 z-0 mb-20 w-full">
               <div className="flex flex-col  items-start  shadow-sm rounded-2xl   ">
-                <img src="IMG5.jpg" alt="" className="h-auto w-full md:h-70 md:w-100 mb-3 object-cover" />
+                <img src="IMG5.jpg" alt="" className="mb-3 h-auto w-full object-cover md:h-70" />
                 <div className="flex flex-col px-5">
                   <div className="text-lg text-black font-bold mb-5">FAMILY SPECIAL ROOM</div>
                   <div className="flex flex-wrap gap-4 sm:gap-8">
@@ -68,7 +68,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col  items-start  shadow-sm rounded-2xl   ">
-                <img src="IMG2.jpg" alt="" className="h-auto w-full md:h-70 md:w-100 mb-3 object-cover" />
+                <img src="IMG2.jpg" alt="" className="mb-3 h-auto w-full object-cover md:h-70" />
                 <div className="flex flex-col px-5">
                   <div className="text-lg text-black font-bold mb-5">PREMIUM ROOM</div>
                   <div className="flex flex-wrap gap-4 sm:gap-8">
@@ -91,7 +91,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex flex-col  items-start  shadow-sm rounded-2xl   ">
-                <img src="IMG1.jpg" alt="" className="h-auto w-full md:h-70 md:w-100 mb-3 object-cover" />
+                <img src="IMG1.jpg" alt="" className="mb-3 h-auto w-full object-cover md:h-70" />
                 <div className="flex flex-col px-5">
                   <div className="text-lg text-black font-bold mb-5">DELUXE SUITE ROOM</div>
                   <div className="flex flex-wrap gap-4 sm:gap-8">

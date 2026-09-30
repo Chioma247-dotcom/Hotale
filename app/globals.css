@@ -52,6 +52,19 @@ button {
   font-size: 1rem;
 }
 
+.booking-control {
+  box-sizing: border-box;
+  line-height: 1.25rem;
+}
+
+.booking-control::-webkit-calendar-picker-indicator {
+  width: 2.75rem;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
 @media (max-width: 767px) {
   .room-search-page .flex.mb-7 {
     flex-wrap: wrap;
