@@ -4,12 +4,12 @@ export default function Home() {
 
       {/* ------HERO----- */}
       <div className="flex  justify-center relative w-full px-4 sm:px-6 md:px-8">
-        <img src="IMG16.jpg" alt="" className="w-full h-full absolute z-0" />
+        <img src="/IMG16.jpg" alt="" className="w-full h-full absolute z-0" />
         <div className="w-full max-w-300 mx-auto">
           <div className="flex flex-col justify-center items-center py-24 sm:py-32 md:py-40 relative">
             <div className="flex flex-col items-center z-0">
               <div className="text-4xl sm:text-5xl md:text-6xl text-white font-bold max-w-250 leading-tight md:leading-20 text-center mb-8">CONTACT Us</div>
-              <div className="text-white text-lg sm:text-xl md:text-2xl font-mono">Get Intouch</div>
+              <div className="text-white text-lg sm:text-xl md:text-2xl font-mono">Get in Touch</div>
 
 
 
@@ -71,27 +71,45 @@ export default function Home() {
 
             <div className="w-full max-w-205 text-gray-800">
               <div className="flex flex-col sm:flex-row gap-5 mb-5">
+                <label htmlFor="contact-name" className="sr-only">Full name</label>
                 <input
+                  id="contact-name"
+                  name="name"
                   type="text"
                   placeholder="Full Name *"
+                  autoComplete="name"
+                  required
                   className="w-full sm:w-1/2 border border-gray-100 outline-none bg-gray-200 px-4 py-2"
                 />
 
+                <label htmlFor="contact-email" className="sr-only">Email address</label>
                 <input
+                  id="contact-email"
+                  name="email"
                   type="email"
                   placeholder="Email *"
+                  autoComplete="email"
+                  required
                   className="w-full sm:w-1/2 border border-gray-100 bg-gray-200 px-4 outline-none py-2"
                 />
               </div>
 
+              <label htmlFor="contact-subject" className="sr-only">Subject</label>
               <input
+                id="contact-subject"
+                name="subject"
                 type="text"
                 placeholder="Subject *"
+                required
                 className="w-full border border-gray-100 outline-none bg-gray-200 px-4 py-3 mb-5"
               />
 
+              <label htmlFor="contact-message" className="sr-only">Message</label>
               <textarea
+                id="contact-message"
+                name="message"
                 placeholder="Message *"
+                required
                 className="w-full h-40 border border-gray-100  bg-gray-200 outline-none p-4 mb-5 resize-none"
               ></textarea>
 
@@ -129,11 +147,11 @@ export default function Home() {
       </div>
       {/* ------FOOTER--- */}
       <div className="legacy-footer flex justify-center relative">
-        <img src="white-bg-4.jpg" alt="" className="absolute h-full w-full z-0" />
+        <img src="/white-bg-4.jpg" alt="" className="absolute h-full w-full z-0" />
         <div className="w-full max-w-300">
           <div className="grid grid-cols-3 gap-7 mb-14 py-20 items-start relative">
             <div className="flex flex-col justify-center items-start z-0">
-              <div className="w-30 mb-8"><img src="Logo-hotel2.png" alt="" /></div>
+              <div className="w-30 mb-8"><img src="/Logo-hotel2.png" alt="Hotale" /></div>
               <div className="flex gap-4 mb-10 ">
                 <div className="rounded-full px-3 py-2  text-sm bg-black ">
                   <i className="bi bi-facebook"></i>
@@ -181,7 +199,7 @@ export default function Home() {
                 />
                 <i className="bi bi-send-fill absolute right-3 top-1/3 -translate-y-1/2 text-amber-800"></i>
               </div>
-              <div className="w-full mb-8"><img src="Logo6.jpg" alt="" /></div>
+              <div className="w-full mb-8"><img src="/Logo6.jpg" alt="Hotel partner logos" /></div>
             </div>
 
           </div>

@@ -5,7 +5,7 @@ export default function RoomGridStyle1() {
         <div>
             {/* ------HERO----- */}
             <div className="flex  justify-center relative">
-                <img src="IMG20.jpg" alt="" className="w-full h-full absolute z-0" />
+                <img src="/IMG20.jpg" alt="" className="w-full h-full absolute z-0" />
                 <div className="w-full max-w-300 px-4 sm:px-6">
                     <div className="flex justify-center items-center py-24 sm:py-32 md:py-40 relative">
                         <div className="text-4xl sm:text-5xl md:text-6xl text-white font-bold max-w-250 leading-tight md:leading-20 text-center">Room Side Thumbnail</div>
@@ -20,9 +20,9 @@ export default function RoomGridStyle1() {
             {/* -----rooms 1----- */}
             <div className="flex justify-center bg-white">
                 <div className="max-w-300 w-full px-4 sm:px-6">
-                    <div className="flex items-center justify-center mt-16 md:mt-36 mb-0 md:ml-20 h-auto min-h-70 w-full md:w-250">
+                    <div className="flex items-center justify-center mt-16 md:mt-36 mb-0 h-auto min-h-70 w-full md:ml-0 md:w-full xl:ml-20 xl:w-250">
                         <div className="grid grid-cols-1 md:grid-cols-2 border-2 justify-center items-center w-full">
-                            <img src="IMG15.jpg" alt="" className="h-auto w-full md:h-73 md:w-auto mt-6 md:mt-10 mb-6 md:mb-10 object-cover" />
+                            <img src="/IMG15.jpg" alt="Luxury suite with a king bed" className="h-auto w-full md:h-73 md:w-auto mt-6 md:mt-10 mb-6 md:mb-10 object-cover" />
                             <div className="flex flex-col p-5 md:mr-19 md:p-0">
                                 <div className="text-black text-2xl font-bold mb-4"> Luxury Suite</div>
                                 <div className="flex flex-wrap mb-7 gap-4 md:gap-7 items-start">
@@ -57,9 +57,9 @@ export default function RoomGridStyle1() {
             {/* -----rooms 2----- */}
             <div className="flex justify-center bg-white">
                 <div className="max-w-300 w-full px-4 sm:px-6">
-                    <div className="flex items-center justify-center mt-16 md:mt-36 mb-0 md:ml-20 h-auto min-h-70 w-full md:w-250">
+                    <div className="flex items-center justify-center mt-16 md:mt-36 mb-0 h-auto min-h-70 w-full md:ml-0 md:w-full xl:ml-20 xl:w-250">
                         <div className="grid grid-cols-1 md:grid-cols-2 border-2 justify-center items-center w-full">
-                            <img src="IMG4.jpg" alt="" className="h-auto w-full md:h-73 md:w-auto mt-6 md:mt-10 mb-6 md:mb-10 object-cover" />
+                            <img src="/IMG4.jpg" alt="Standard deluxe room with twin beds" className="h-auto w-full md:h-73 md:w-auto mt-6 md:mt-10 mb-6 md:mb-10 object-cover" />
                             <div className="flex flex-col p-5 md:mr-19 md:p-0">
                                 <div className="text-black text-2xl font-bold mb-4"> Standard Deluxe</div>
                                 <div className="flex flex-wrap mb-7 gap-4 md:gap-7 items-start">
@@ -91,9 +91,9 @@ export default function RoomGridStyle1() {
             {/* -----rooms 3----- */}
             <div className="flex justify-center bg-white">
                 <div className="max-w-300 w-full px-4 sm:px-6">
-                    <div className="flex items-center justify-center mt-16 md:mt-36 mb-0 md:ml-20 h-auto min-h-70 w-full md:w-250">
+                    <div className="flex items-center justify-center mt-16 md:mt-36 mb-0 h-auto min-h-70 w-full md:ml-0 md:w-full xl:ml-20 xl:w-250">
                         <div className="grid grid-cols-1 md:grid-cols-2 border-2 justify-center items-center w-full">
-                            <img src="IMG1.jpg" alt="" className="h-auto w-full md:h-73 md:w-auto mt-6 md:mt-10 mb-6 md:mb-10 object-cover" />
+                            <img src="/IMG1.jpg" alt="Penthouse suite interior" className="h-auto w-full md:h-73 md:w-auto mt-6 md:mt-10 mb-6 md:mb-10 object-cover" />
                             <div className="flex flex-col p-5 md:mr-19 md:p-0">
                                 <div className="text-black text-2xl font-bold mb-4"> The Penthouse</div>
                                 <div className="flex flex-wrap mb-7 gap-4 md:gap-7 items-start">
@@ -128,9 +128,9 @@ export default function RoomGridStyle1() {
             {/* -----rooms 4----- */}
             <div className="flex justify-center bg-white">
                 <div className="max-w-300 w-full px-4 sm:px-6">
-                    <div className="flex items-center justify-center mt-16 md:mt-36 mb-0 md:ml-20 h-auto min-h-70 w-full md:w-250">
+                    <div className="flex items-center justify-center mt-16 md:mt-36 mb-0 h-auto min-h-70 w-full md:ml-0 md:w-full xl:ml-20 xl:w-250">
                         <div className="grid grid-cols-1 md:grid-cols-2 border-2 justify-center items-center w-full">
-                            <img src="IMG6.jpg" alt="" className="h-auto w-full md:h-73 md:w-auto mt-6 md:mt-10 mb-6 md:mb-10 object-cover" />
+                            <img src="/IMG6.jpg" alt="Grand suite room with a king bed" className="h-auto w-full md:h-73 md:w-auto mt-6 md:mt-10 mb-6 md:mb-10 object-cover" />
                             <div className="flex flex-col p-5 md:mr-19 md:p-0">
                                 <div className="text-black text-2xl font-bold mb-4"> Grand Suite Room</div>
                                 <div className="flex flex-wrap mb-7 gap-4 md:gap-7 items-start">
@@ -165,9 +165,9 @@ export default function RoomGridStyle1() {
             {/* -----rooms 5----- */}
             <div className="flex justify-center bg-white">
                 <div className="max-w-300 w-full px-4 sm:px-6">
-                    <div className="flex items-center justify-center mt-16 md:mt-36 mb-0 md:ml-20 h-auto min-h-70 w-full md:w-252">
+                    <div className="flex items-center justify-center mt-16 md:mt-36 mb-0 h-auto min-h-70 w-full md:ml-0 md:w-full xl:ml-20 xl:w-252">
                         <div className="grid grid-cols-1 md:grid-cols-2 border-2 justify-center items-center w-full">
-                            <img src="IMG1.jpg" alt="" className="h-auto w-full md:h-73 md:w-auto mt-6 md:mt-10 mb-6 md:mb-10 object-cover" />
+                            <img src="/IMG1.jpg" alt="Junior suite room interior" className="h-auto w-full md:h-73 md:w-auto mt-6 md:mt-10 mb-6 md:mb-10 object-cover" />
                             <div className="flex flex-col p-5 md:mr-19 md:p-0">
                                 <div className="text-black text-2xl font-bold mb-4"> Junior Suite Room</div>
                                 <div className="flex flex-wrap mb-7 gap-4 md:gap-7 items-start">
@@ -202,9 +202,9 @@ export default function RoomGridStyle1() {
             {/* -----rooms 6----- */}
             <div className="flex justify-center bg-white">
                 <div className="max-w-300 w-full px-4 sm:px-6">
-                    <div className="flex items-center justify-center mt-16 md:mt-36 mb-0 md:ml-20 h-auto min-h-70 w-full md:w-252">
+                    <div className="flex items-center justify-center mt-16 md:mt-36 mb-0 h-auto min-h-70 w-full md:ml-0 md:w-full xl:ml-20 xl:w-252">
                         <div className="grid grid-cols-1 md:grid-cols-2 border-2 justify-center items-center w-full">
-                            <img src="IMG18.jpg" alt="" className="h-auto w-full md:h-73 md:w-auto mt-6 md:mt-10 mb-6 md:mb-10 object-cover" />
+                            <img src="/IMG18.jpg" alt="Standard room with a double bed" className="h-auto w-full md:h-73 md:w-auto mt-6 md:mt-10 mb-6 md:mb-10 object-cover" />
                             <div className="flex flex-col p-5 md:mr-19 md:p-0">
                                 <div className="text-black text-2xl font-bold mb-4">Standard Room</div>
                                 <div className="flex flex-wrap mb-7 gap-4 md:gap-7 items-start">
@@ -239,9 +239,9 @@ export default function RoomGridStyle1() {
             {/* -----rooms 7----- */}
             <div className="flex justify-center bg-white">
                 <div className="max-w-300 w-full px-4 sm:px-6">
-                    <div className="flex items-center justify-center mt-16 md:mt-36 mb-0 md:ml-20 h-auto min-h-70 w-full md:w-252">
+                    <div className="flex items-center justify-center mt-16 md:mt-36 mb-0 h-auto min-h-70 w-full md:ml-0 md:w-full xl:ml-20 xl:w-252">
                         <div className="grid grid-cols-1 md:grid-cols-2 border-2 justify-center items-center w-full">
-                            <img src="IMG5.jpg" alt="" className="h-auto w-full md:h-73 md:w-auto mt-6 md:mt-10 mb-6 md:mb-10 object-cover" />
+                            <img src="/IMG5.jpg" alt="Family special room with two double beds" className="h-auto w-full md:h-73 md:w-auto mt-6 md:mt-10 mb-6 md:mb-10 object-cover" />
                             <div className="flex flex-col p-5 md:mr-19 md:p-0">
                                 <div className="text-black text-2xl font-bold mb-4">Family Special Room</div>
                                 <div className="flex flex-wrap mb-7 gap-4 items-start">
@@ -276,9 +276,9 @@ export default function RoomGridStyle1() {
             {/* -----rooms 8----- */}
             <div className="flex justify-center bg-white">
                 <div className="max-w-300 w-full px-4 sm:px-6">
-                    <div className="flex items-center justify-center mt-16 md:mt-36 mb-0 md:ml-20 h-auto min-h-70 w-full md:w-252">
+                    <div className="flex items-center justify-center mt-16 md:mt-36 mb-0 h-auto min-h-70 w-full md:ml-0 md:w-full xl:ml-20 xl:w-252">
                         <div className="grid grid-cols-1 md:grid-cols-2 border-2 justify-center items-center w-full">
-                            <img src="IMG2.jpg" alt="" className="h-auto w-full md:h-73 md:w-auto mt-6 md:mt-10 mb-6 md:mb-10 object-cover" />
+                            <img src="/IMG2.jpg" alt="Premium hotel room with twin beds" className="h-auto w-full md:h-73 md:w-auto mt-6 md:mt-10 mb-6 md:mb-10 object-cover" />
                             <div className="flex flex-col p-5 md:mr-19 md:p-0">
                                 <div className="text-black text-2xl font-bold mb-4"> Premium Room</div>
                                 <div className="flex flex-wrap mb-7 gap-4 items-start">
@@ -313,9 +313,9 @@ export default function RoomGridStyle1() {
             {/* -----rooms 9----- */}
             <div className="flex justify-center bg-white">
                 <div className="max-w-300 w-full px-4 sm:px-6">
-                    <div className="flex items-center justify-center mt-16 md:mt-36 mb-20 md:ml-20 h-auto min-h-70 w-full md:w-250">
+                    <div className="flex items-center justify-center mt-16 md:mt-36 mb-20 h-auto min-h-70 w-full md:ml-0 md:w-full xl:ml-20 xl:w-250">
                         <div className="grid grid-cols-1 md:grid-cols-2 border-2 justify-center items-center w-full">
-                            <img src="IMG13.jpg" alt="" className="h-auto w-full md:h-73 md:w-auto mt-6 md:mt-10 mb-6 md:mb-10 object-cover" />
+                            <img src="/IMG13.jpg" alt="Deluxe suite room interior" className="h-auto w-full md:h-73 md:w-auto mt-6 md:mt-10 mb-6 md:mb-10 object-cover" />
                             <div className="flex flex-col p-5 md:mr-19 md:p-0">
                                 <div className="text-black text-2xl font-bold mb-4"> Deluxe Suite Room</div>
                                 <div className="flex flex-wrap mb-7 gap-4 items-start">
@@ -349,11 +349,11 @@ export default function RoomGridStyle1() {
             </div>
             {/* ------FOOTER--- */}
             <div className="legacy-footer flex justify-center relative">
-                <img src="white-bg-4.jpg" alt="" className="absolute h-full w-full z-0" />
+                <img src="/white-bg-4.jpg" alt="" className="absolute h-full w-full z-0" />
                 <div className="w-full max-w-300">
                     <div className="grid grid-cols-3 gap-7 mb-14 py-20 items-start relative">
                         <div className="flex flex-col justify-center items-start z-0">
-                            <div className="w-30 mb-8"><img src="Logo-hotel2.png" alt="" /></div>
+                            <div className="w-30 mb-8"><img src="/Logo-hotel2.png" alt="Hotale" /></div>
                             <div className="flex gap-4 mb-10 ">
                                 <div className="rounded-full px-3 py-2  text-sm bg-black ">
                                     <i className="bi bi-facebook"></i>
@@ -401,7 +401,7 @@ export default function RoomGridStyle1() {
                                 />
                                 <i className="bi bi-send-fill absolute right-3 top-1/3 -translate-y-1/2 text-amber-800"></i>
                             </div>
-                            <div className="w-full mb-8"><img src="Logo6.jpg" alt="" /></div>
+                            <div className="w-full mb-8"><img src="/Logo6.jpg" alt="Hotel partner logos" /></div>
                         </div>
 
                     </div>

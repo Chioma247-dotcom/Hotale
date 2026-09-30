@@ -31,11 +31,22 @@ img {
 }
 
 a[href="/room-search"] {
+  display: inline-flex;
   min-height: 2.75rem;
   align-items: center;
+  transition: filter 200ms ease-in-out, transform 200ms ease-in-out;
 }
 
-a[href="/room-search"]:focus-visible,
+a[href="/room-search"]:hover {
+  filter: brightness(0.92);
+}
+
+a[href="/room-search"]:active,
+button:active {
+  transform: translateY(1px);
+}
+
+a:focus-visible,
 button:focus-visible,
 input:focus-visible,
 select:focus-visible,

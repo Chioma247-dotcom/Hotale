@@ -6,7 +6,7 @@ export default function RoomSearch() {
         <div className="room-search-page">
             {/* ------HERO----- */}
             <div className="flex  justify-center relative">
-                <img src="IMG20.jpg" alt="" className="w-full h-full absolute z-0" />
+                <img src="/IMG20.jpg" alt="" className="w-full h-full absolute z-0" />
                 <div className="w-full max-w-300 px-4 sm:px-6">
                     <div className="flex justify-center items-center py-24 sm:py-32 md:py-40 relative">
                         <div className="text-4xl sm:text-5xl md:text-6xl text-white font-bold max-w-250 leading-tight md:leading-20 text-center">Room Search</div>
@@ -28,15 +28,15 @@ export default function RoomSearch() {
                             <BookingForm variant="sidebar" />
                         </div>
                         <div className="flex flex-col gap-10 -mt-8 w-full lg:w-auto">
-                            <img src="IMG15.jpg" alt="" className="h-auto w-full max-w-110 object-cover lg:h-90" />
-                            <img src="IMG4.jpg" alt="" className="h-auto w-full max-w-110 object-cover lg:h-90" />
-                            <img src="IMG3.jpg" alt="" className="h-auto w-full max-w-110 object-cover lg:h-90" />
-                            <img src="IMG6.jpg" alt="" className="h-auto w-full max-w-110 object-cover lg:h-90" />
-                            <img src="IMG13.jpg" alt="" className="h-auto w-full max-w-110 object-cover lg:h-90" />
-                            <img src="IMG18.jpg" alt="" className="h-auto w-full max-w-140 object-cover lg:h-87" />
-                            <img src="IMG5.jpg" alt="" className="h-auto w-full max-w-110 object-cover lg:h-90" />
-                            <img src="IMG2.jpg" alt="" className="h-auto w-full max-w-98 object-cover lg:h-95" />
-                            <img src="IMG1.jpg" alt="" className="h-auto w-full max-w-110 object-cover lg:h-90" />
+                            <img src="/IMG15.jpg" alt="Luxury suite room interior" className="h-auto w-full max-w-110 object-cover lg:h-90" />
+                            <img src="/IMG4.jpg" alt="Standard deluxe room interior" className="h-auto w-full max-w-110 object-cover lg:h-90" />
+                            <img src="/IMG3.jpg" alt="Hotel room with contemporary furnishings" className="h-auto w-full max-w-110 object-cover lg:h-90" />
+                            <img src="/IMG6.jpg" alt="Grand suite room interior" className="h-auto w-full max-w-110 object-cover lg:h-90" />
+                            <img src="/IMG13.jpg" alt="Deluxe suite room interior" className="h-auto w-full max-w-110 object-cover lg:h-90" />
+                            <img src="/IMG18.jpg" alt="Standard room interior" className="h-auto w-full max-w-140 object-cover lg:h-87" />
+                            <img src="/IMG5.jpg" alt="Family special room interior" className="h-auto w-full max-w-110 object-cover lg:h-90" />
+                            <img src="/IMG2.jpg" alt="Premium hotel room interior" className="h-auto w-full max-w-98 object-cover lg:h-95" />
+                            <img src="/IMG1.jpg" alt="Penthouse suite interior" className="h-auto w-full max-w-110 object-cover lg:h-90" />
 
                         </div>
                         <div className="flex w-full flex-col gap-20 lg:w-auto lg:max-w-140">
@@ -361,11 +361,11 @@ export default function RoomSearch() {
 
             {/* ------FOOTER--- */}
             <div className="legacy-footer flex justify-center relative">
-                <img src="white-bg-4.jpg" alt="" className="absolute h-full w-full z-0" />
+                <img src="/white-bg-4.jpg" alt="" className="absolute h-full w-full z-0" />
                 <div className="w-full max-w-300">
                     <div className="grid grid-cols-3 gap-7 mb-14 py-20 items-start relative">
                         <div className="flex flex-col justify-center items-start z-0">
-                            <div className="w-30 mb-8"><img src="Logo-hotel2.png" alt="" /></div>
+                            <div className="w-30 mb-8"><img src="/Logo-hotel2.png" alt="Hotale" /></div>
                             <div className="flex gap-4 mb-10 ">
                                 <div className="rounded-full px-3 py-2  text-sm bg-black ">
                                     <i className="bi bi-facebook"></i>
@@ -413,7 +413,7 @@ export default function RoomSearch() {
                                 />
                                 <i className="bi bi-send-fill absolute right-3 top-1/3 -translate-y-1/2 text-amber-800"></i>
                             </div>
-                            <div className="w-full mb-8"><img src="Logo6.jpg" alt="" /></div>
+                            <div className="w-full mb-8"><img src="/Logo6.jpg" alt="Hotel partner logos" /></div>
                         </div>
 
                     </div>

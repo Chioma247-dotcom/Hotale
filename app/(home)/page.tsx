@@ -19,7 +19,7 @@ export default function Home() {
             <div className="flex flex-col items-center z-0">
               <div className="text-4xl sm:text-5xl md:text-6xl text-white font-bold max-w-250 leading-tight md:leading-20 text-center mb-8">Hotel for the elite passionate  about luxury & comfort</div>
 
-              <div className="mb-12 max-w-130 text-center text-lg text-white sm:mb-30">Hotale has a series of lavish and comfortable hotels and residencesin Asia, Europe, and America. <Link href="/room-search" className="text-amber-700 underline-offset-4 hover:underline focus-visible:underline"> Check Availability.</Link></div>
+              <div className="mb-12 max-w-130 text-center text-lg text-white sm:mb-30">Hotale has a series of lavish and comfortable hotels and residences in Asia, Europe, and America. <Link href="/room-search" className="text-amber-700 underline-offset-4 hover:underline focus-visible:underline">Check Availability.</Link></div>
             </div>
 
             <BookingForm variant="hero" />
@@ -44,7 +44,7 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 z-0 mb-20 w-full">
               <div className="flex flex-col  items-start  shadow-sm rounded-2xl   ">
-                <img src="IMG5.jpg" alt="" className="mb-3 h-auto w-full object-cover md:h-70" />
+                <img src="IMG5.jpg" alt="Family special hotel room" className="mb-3 h-auto w-full object-cover md:h-70" />
                 <div className="flex flex-col px-5">
                   <div className="text-lg text-black font-bold mb-5">FAMILY SPECIAL ROOM</div>
                   <div className="flex flex-wrap gap-4 sm:gap-8">
@@ -60,7 +60,7 @@ export default function Home() {
                   </div>
                   <div className="flex flex-wrap gap-6 sm:gap-23 items-center mb-16">
                     <div className="text-gray-500 text-xl mb-3">$180 / <span className="text-sm">NIGHT</span></div>
-                    <Link href="/room-search" className="text-white bg-amber-800 py-2 px-5 text-sm rounded-sm">BOOK NOW</Link>
+                    <Link href="/room-search" className="rounded-sm bg-amber-800 px-5 py-2 text-sm text-white transition duration-300 ease-in-out hover:bg-amber-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-800">BOOK NOW</Link>
 
                   </div>
 
@@ -68,7 +68,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col  items-start  shadow-sm rounded-2xl   ">
-                <img src="IMG2.jpg" alt="" className="mb-3 h-auto w-full object-cover md:h-70" />
+                <img src="IMG2.jpg" alt="Premium hotel room with twin beds" className="mb-3 h-auto w-full object-cover md:h-70" />
                 <div className="flex flex-col px-5">
                   <div className="text-lg text-black font-bold mb-5">PREMIUM ROOM</div>
                   <div className="flex flex-wrap gap-4 sm:gap-8">
@@ -84,14 +84,14 @@ export default function Home() {
                   </div>
                   <div className="flex flex-wrap gap-6 sm:gap-23 items-center mb-16">
                     <div className="text-gray-500 text-xl mb-3">$75/ <span className="text-sm">NIGHT</span></div>
-                    <Link href="/room-search" className="text-white bg-amber-800 py-2 px-5 text-sm rounded-sm">BOOK NOW</Link>
+                    <Link href="/room-search" className="rounded-sm bg-amber-800 px-5 py-2 text-sm text-white transition duration-300 ease-in-out hover:bg-amber-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-800">BOOK NOW</Link>
 
                   </div>
 
                 </div>
               </div>
               <div className="flex flex-col  items-start  shadow-sm rounded-2xl   ">
-                <img src="IMG1.jpg" alt="" className="mb-3 h-auto w-full object-cover md:h-70" />
+                <img src="IMG1.jpg" alt="Deluxe suite hotel room" className="mb-3 h-auto w-full object-cover md:h-70" />
                 <div className="flex flex-col px-5">
                   <div className="text-lg text-black font-bold mb-5">DELUXE SUITE ROOM</div>
                   <div className="flex flex-wrap gap-4 sm:gap-8">
@@ -107,7 +107,7 @@ export default function Home() {
                   </div>
                   <div className="flex flex-wrap gap-6 sm:gap-23 items-center mb-16">
                     <div className="text-gray-500 text-xl mb-3">$150 / <span className="text-sm">NIGHT</span></div>
-                    <Link href="/room-search" className="text-white bg-amber-800 py-2 px-5 text-sm rounded-sm">BOOK NOW</Link>
+                    <Link href="/room-search" className="rounded-sm bg-amber-800 px-5 py-2 text-sm text-white transition duration-300 ease-in-out hover:bg-amber-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-800">BOOK NOW</Link>
 
                   </div>
 
@@ -116,10 +116,10 @@ export default function Home() {
 
 
             </div>
-            <div className="border-2 border-amber-700 py-2 rounded-lg px-6  gap-3 flex">
+            <Link href="/room-grid-style-1" className="flex min-h-11 items-center gap-3 rounded-lg border-2 border-amber-700 px-6 py-2 transition duration-300 ease-in-out hover:bg-amber-700 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-700">
               <div className="text-amber-700 text-lg"><i className="bi bi-star"></i></div>
-              <div className="text-amber-700 text-lg">VIEW ALL ROOMS</div>
-            </div>
+              <span className="text-lg">VIEW ALL ROOMS</span>
+            </Link>
 
           </div>
         </div>
@@ -133,11 +133,11 @@ export default function Home() {
               <div className="text-2xl text-black font-bold max-w-123 mb-8"> OFFERING A SERIES OF COMFORTABLE AND LAVISH HOTELS & RESIDENCES</div>
               <div className="bg-amber-600 text-amber-600 text-sm mb-8 px-4"> text</div>
               <div className="text-gray-500 text-lg font-light mb-8 max-w-122">All our hotels are fabulous, they are destinations unto themselves. We have crossed the globe to bring you only the best.</div>
-              <div className="text-white  bg-amber-800 py-4 px-8 text-sm rounded-sm"> LEARN MORE </div>
+              <Link href="/about" className="inline-flex min-h-11 items-center rounded-sm bg-amber-800 px-8 py-4 text-sm text-white transition duration-300 ease-in-out hover:bg-amber-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-800">LEARN MORE</Link>
 
             </div>
             <div className=" z-0">
-              <img src="IMG19.jpg" alt="" className="h-auto w-full md:h-120 md:w-auto rounded-2xl object-cover" />
+              <img src="IMG19.jpg" alt="Hotel exterior and grounds" className="h-auto w-full md:h-120 md:w-auto rounded-2xl object-cover" />
             </div>
 
           </div>
@@ -149,7 +149,7 @@ export default function Home() {
         <div className="w-full max-w-300 px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 py-5 justify-center items-start gap-12 md:gap-20 mt-12 md:mt-20 mb-30 relative">
             <div className=" z-0">
-              <img src="IMG13.jpg" alt="" className="relative h-auto w-full rounded-2xl md:absolute md:h-110 md:w-auto" />
+              <img src="IMG13.jpg" alt="A hotel guest room with contemporary furnishings" className="relative h-auto w-full rounded-2xl md:absolute md:h-110 md:w-auto" />
               <img src="play.png" alt="" className="absolute bottom-8 left-1/2 w-16 -translate-x-1/2 md:bottom-28 md:left-60 md:w-22 md:translate-x-0" />
             </div>
 
@@ -157,7 +157,7 @@ export default function Home() {
               <div className="text-2xl text-black font-bold max-w-123 mb-8">GLAMOUR & COMFORT THAT EXPANDS THE IMAGINATION</div>
               <div className="bg-amber-600 text-amber-600 text-sm mb-8 px-4"> text</div>
               <div className="text-gray-500 text-lg font-light mb-8 max-w-122">All our hotels are fabulous, they are destinations unto themselves. We have crossed the globe to bring you only the best.</div>
-              <div className="text-white  bg-amber-800 py-4 px-8 text-sm rounded-sm"> LEARN MORE </div>
+              <Link href="/about" className="inline-flex min-h-11 items-center rounded-sm bg-amber-800 px-8 py-4 text-sm text-white transition duration-300 ease-in-out hover:bg-amber-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-800">LEARN MORE</Link>
 
             </div>
 
@@ -173,7 +173,7 @@ export default function Home() {
             <div className="text-black font-bold text-2xl mt-10 mb-8">SEEK THE EXTRAORDINARY</div>
             <div className="bg-amber-600 text-amber-600 text-sm mb-10 px-4"> text</div>
             <div className="">
-              <img src="IMG14.jpg" alt="" className="h-auto w-full max-w-220 object-cover" />
+              <img src="IMG14.jpg" alt="Ocean view from the hotel" className="h-auto w-full max-w-220 object-cover" />
             </div>
           </div>
         </div>
@@ -183,7 +183,7 @@ export default function Home() {
         <img src="white-bg-4.jpg" alt="" className="absolute h-full w-full z-0" />
         <div className="w-full max-w-300 px-4 sm:px-6">
           <div className="flex flex-col justify-center items-center py-10 relative ">
-            <div className="text-black font-bold text-2xl mt-10 mb-8  max-w-180 text-center">A UNIQUE UNIVERSE, FROM UNMATCHED OCEAN VIEWSTO CULINARY EXPERINCES</div>
+            <div className="text-black font-bold text-2xl mt-10 mb-8 max-w-180 text-center">A UNIQUE UNIVERSE, FROM UNMATCHED OCEAN VIEWS TO CULINARY EXPERIENCES</div>
             <div className="bg-amber-600 text-amber-600 text-sm mb-10 px-4"> text</div>
             <div className="text-gray-400 text-lg font-light max-w-150 text-center mb-16">Our luxury rooms and suites combine elegant design with the simple beauty of a tropical hideout.</div>
             <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-12 md:gap-26 z-0 w-full">
@@ -220,7 +220,7 @@ export default function Home() {
         <div className="w-full max-w-300 px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 py-16 md:py-30 gap-10 relative">
             <div className="flex flex-col justify-center items-start py-10 z-0">
-              <div className="text-white font-bold text-xl mb-5">OFFERING A SERIES OF COMFORTABLE AND LAVISH HOYELS & RESIDENCES</div>
+              <div className="text-white font-bold text-xl mb-5">OFFERING A SERIES OF COMFORTABLE AND LAVISH HOTELS & RESIDENCES</div>
               <div className="bg-amber-600 text-amber-600 text-sm mb-10 px-4"> text</div>
               <div className="flex gap-3">
                 <div className="text-white text-lg"><i className="bi bi-geo-alt"></i></div>
@@ -258,9 +258,9 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-10 z-0 w-full">
               <div className="flex flex-col items-center w-full max-w-100 h-110 shadow-2xl bg-gray-100 justify-center p-5">
                 <div className="mt-15 mb-8">
-                  <img src="IMG9.jpg" alt="" className=" w-20 rounded-full" /></div>
+                  <img src="IMG9.jpg" alt="Guest Cynthia Hill" className="w-20 rounded-full" /></div>
                 <div className="text-black text-sm font-bold mb-5">CYNTHIA HILL</div>
-                <div className="text-gray-400 text-lg font-light max-w-80 text-center mb-5">A very pleseant stay!The hospitality and services provided by each staff of the hotel was excellent</div>
+                <div className="text-gray-400 text-lg font-light max-w-80 text-center mb-5">A very pleasant stay! The hospitality and service provided by every member of the hotel staff was excellent.</div>
                 <div className="flex gap-2">
                   <div className="text-amber-400 text-sm"> <i className="bi bi-star-fill"></i></div>
                   <div className="text-amber-400 text-sm"> <i className="bi bi-star-fill"></i></div>
@@ -271,9 +271,9 @@ export default function Home() {
               </div>
               <div className="flex flex-col items-center w-full max-w-100 h-110 shadow-2xl bg-gray-100 justify-center p-5">
                 <div className="mt-15 mb-8">
-                  <img src="IMG12.jpg" alt="" className=" w-20 rounded-full" /></div>
-                <div className="text-black text-sm font-bold mb-5">MICHEAL SMITH</div>
-                <div className="text-gray-400 text-lg font-light max-w-80 text-center mb-5">A very pleseant stay!The hospitality and services provided by each staff of the hotel was excellent</div>
+                  <img src="IMG12.jpg" alt="Guest Michael Smith" className="w-20 rounded-full" /></div>
+                <div className="text-black text-sm font-bold mb-5">MICHAEL SMITH</div>
+                <div className="text-gray-400 text-lg font-light max-w-80 text-center mb-5">A very pleasant stay! The hospitality and service provided by every member of the hotel staff was excellent.</div>
                 <div className="flex gap-2">
                   <div className="text-amber-400 text-sm"> <i className="bi bi-star-fill"></i></div>
                   <div className="text-amber-400 text-sm"> <i className="bi bi-star-fill"></i></div>
@@ -284,9 +284,9 @@ export default function Home() {
               </div>
               <div className="flex flex-col items-center w-full max-w-100 h-110 shadow-2xl bg-gray-100 justify-center p-5">
                 <div className="mt-15 mb-8">
-                  <img src="IMG8.jpg" alt="" className=" w-20 rounded-full" /></div>
+                  <img src="IMG8.jpg" alt="Guest Donna Wilson" className="w-20 rounded-full" /></div>
                 <div className="text-black text-sm font-bold mb-5">DONNA WILSON</div>
-                <div className="text-gray-400 text-lg font-light max-w-80 text-center mb-5">A very pleseant stay!The hospitality and services provided by each staff of the hotel was excellent</div>
+                <div className="text-gray-400 text-lg font-light max-w-80 text-center mb-5">A very pleasant stay! The hospitality and service provided by every member of the hotel staff was excellent.</div>
                 <div className="flex gap-2">
                   <div className="text-amber-400 text-sm"> <i className="bi bi-star-fill"></i></div>
                   <div className="text-amber-400 text-sm"> <i className="bi bi-star-fill"></i></div>
